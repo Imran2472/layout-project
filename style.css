@@ -66,6 +66,7 @@ header nav{
     font-weight: 600;
     cursor: pointer;
     color: var(--white--);
+    text-transform: uppercase;
 }
 header nav .navbar .logo{
     display: none;
@@ -83,6 +84,7 @@ header nav .navbar ul li a{
     padding: 6px 12px;
     border-radius: 30px;
     transition: all .3s ease;
+    text-transform: uppercase;
 }
 header nav .navbar ul li:nth-child(5) a:hover{
     background-image: var(--hovered-color--);
@@ -113,6 +115,8 @@ header nav .navbar ul li a:hover{
     font-weight: 500;
     color: var(--white--);
     line-height: 60px;
+    text-transform: uppercase;
+
 }
 .hero .container .row .col .content .line{
     width: 100px;
@@ -140,6 +144,8 @@ header nav .navbar ul li a:hover{
     padding: 12px 30px;
     border-radius: 30px;
     transition: .3s ease;
+    text-transform: uppercase;
+
 }
 .hero .container .row .col .content .button a:hover{
     background-image: var(--hovered-color--);
